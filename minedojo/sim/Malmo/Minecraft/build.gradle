@@ -24,7 +24,7 @@ buildscript {
 
 	classpath fileTree(dir: '/Users/joe/src/MixinGradle-dcfaf61/MixinGradle/dcfaf61/', include: '*.jar')
 
-        classpath 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-tag'
+        classpath 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-SNAPSHOT'
     }
     configurations {
         compileClasspath {
@@ -44,7 +44,7 @@ plugins {
 }
 
 dependencies {
-    implementation 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-tag'
+    implementation 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-SNAPSHOT'
 }
 
 apply plugin: 'net.minecraftforge.gradle.forge'
